@@ -17,13 +17,13 @@ siteUrl:  "https://ahlangenendana.github.io"  # ← Your GitHub Pages URL (used 
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Ahlangene"              # Your name — shown in the header and used as a fallback in the avatar
-title: "IT Support Engineer"
+name: "Ahlangene P. Ndana"              # Your name — shown in the header and used as a fallback in the avatar
+title: "IT Support Engineer & and Aspiring Software Developer"
 tagline: "I resolve technology systems for everyone."
 email: "ndana.ahlangene@gmail.com"
 phone: "+27 63 885 7969"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Cape Town, South Africa"
-avatarUrl: "https://github.com/Ahlangene/ahlangenendana.github.io/blob/main/Professional%20Headshot.png"  # Demo avatar — replace with your own photo URL (see instructions below)
+avatarUrl: "https://raw.githubusercontent.com/Ahlangene/ahlangenendana.github.io/refs/heads/main/Professional%20Headshot.png"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -104,11 +104,11 @@ about: |
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
-stats:
-  - { label: "Years Experience", value: 5,    suffix: "+" }
-  - { label: "Projects Shipped", value: 20,   suffix: "+" }
-  - { label: "Happy Clients",    value: 50,   suffix: "+" }
-  - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+# stats:
+#   - { label: "Years Experience", value: 5,    suffix: "+" }
+#   - { label: "Projects Shipped", value: 20,   suffix: "+" }
+#   - { label: "Happy Clients",    value: 50,   suffix: "+" }
+#   - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -124,6 +124,12 @@ languages:
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
+  - category: "Operating Systems"
+    items: [Windows 10/11, Android, Linux]
+  - category: "Microsoft Technologies"
+    items: [Microsoft 365, Microsoft Office, Teams, OneDrive, SharePoint, Active Directory Fundamentals]
+  - category: "Networking"
+    items: [TCP/IP, IP Addressing, DNS, DHCP, Wi-Fi, LAN Connectivity, Basic Network Troubleshooting]
   - category: "Frontend"
     items: [React, TypeScript, Next.js, Tailwind CSS, Framer Motion]
   - category: "Backend"
@@ -131,7 +137,7 @@ skills:
   - category: "DevOps"
     items: [Docker, CI/CD, Kubernetes,]
   - category: "Tools"
-    items: [Git, VSCode]
+    items: [Git, VSCode, Jupyter Labs, Cisco Packet Tracer]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
@@ -147,10 +153,12 @@ experience:
       What I did about it: I reconciled project quantities against payment 
       records to surface discrepancies, then generated or updated 17 close-out 
       reports to fill the gaps.
+    Outcome: Improved the completeness of project records and supported audit readiness across 8 projects, while coordinating ~30 stakeholders.
     highlights:
-      - Microservices migration
-      - 60% latency reduction
-      - Team leadership
+      - Ms Word
+      - Ms Excel
+      - Records Management
+      - Audit Preparation
 
   - company: "Independent"
     role: "IT Support"
@@ -163,83 +171,62 @@ experience:
       stakeholders.
       What I did: Provided first-line technical support to ~25 users across 35 devices, primarily onsite.
       The interesting part: Most issues weren't obvious—OneDrive sync failures, audio/connectivity problems, OS installs, HDD-to-SSD upgrades. I had to gather information, form a hypothesis, apply a fix, and verify with the user.
-      Outcome: Kept 25 users productive across 35 devices, and built a habit of explaining technical solutions in plain language.
-    Outcome: Improved the completeness of project records and supported audit readiness across 8 projects, while coordinating ~30 stakeholders.
+    Outcome: Kept 25 users productive across 35 devices, and built a habit of explaining technical solutions in plain language.
     highlights:
-      - Real-time collaboration
-      - 50k users
-      - Frontend ownership
-
-  - company: "Freelance"
-    role: "Web Developer"
-    period: "2018 – 2020"
-    description: |
-      Delivered 20+ web projects for small businesses and agencies across
-      e-commerce, marketing, and internal tools.
-    highlights:
-      - 20+ projects
-      - E-commerce
-      - Internal tools
+      - Troubleshooting
+      - 25 users
+      - Windows and Linux
+      - MS Office
 
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
-    featured: true
+  
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
+  - name: "Anomaly Detection with Satellite Telemetry Data"
+    description: "An anmally detection model made to detect any abnormalities with in a telemetry system using LSTM"
+    tags: [Python, Pytorch, LSTM]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+    repoUrl: "https://github.com/Ahlangene/Anomaly-Detection-in-Satellite-Telemetry-dataset-using-ESA-dataset"
     featured: true
 
-  - name: "PriceWatch"
+  - name: "Data analysis"
     description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
     tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
-
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
     liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
+    repoUrl: "https://github.com/Ahlangene/Data-Analysis-Web-Application"
+    featured: true
 
 # ── Education ──────────────────────────────────────────────────────────
 education:
-  - institution: "University of California, Berkeley"
-    degree: "B.S. Computer Science"
-    period: "2014 – 2018"
+  - institution: "Cape Peninsula University of Technology"
+    degree: "Bachelor of Engineering Technology Honours in Computer Engineering"
+    period: "2025"
+    
+  - institution: "Cape Peninsula University of Technology"
+    degree: "Bachelor of Engineering Technology in Computer Engineering"
+    period: "2022 – 2024"
+
+  - institution: "Spine Road High School"
+    degree: "National Senior Certficate"
+    period: "2017 – 2021"
 
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
-  - title: "AWS Certified Solutions Architect – Associate"
-    issuer: "Amazon Web Services"
-    date: "2023"
-    credentialUrl: "https://aws.amazon.com/verification"
-    badgeUrl: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-    tags: [Cloud, Architecture, AWS]
-
-  - title: "Professional Scrum Master I"
-    issuer: "Scrum.org"
-    date: "2022"
-    credentialUrl: "https://www.scrum.org/certificates"
-    badgeUrl: "https://images.credly.com/size/340x340/images/a2790314-008a-4c3d-9e11-2a8f48155adc/image.png"
-    tags: [Agile, Scrum, Leadership]
-
-  - title: "Google Professional Data Engineer"
-    issuer: "Google Cloud"
-    date: "2021"
-    credentialUrl: ""
+  - title: "IBM Full Stack Software Developer Professional Certificate"
+    issuer: "IBM"
+    date: "2026"
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/D1RY619LPX9C"
     badgeUrl: ""
-    tags: [Data, GCP, BigQuery]
+    tags: [Frontend, Backend, Javascript, Python, Git Version Control, MicroServices, Cloud Deployment, CI/CD]
+
+  - title: "Google IT Support Professional Certificate"
+    issuer: "Google"
+    date: "2025"
+    credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/JFIQODI1UTW0"
+    badgeUrl: ""
+    tags: [Windows, Linux, Hardware, Software, Security, Troubleshooting, Networking]
+
 
 
 # ── Publications ───────────────────────────────────────────────────────
@@ -274,25 +261,6 @@ testimonials:
       elevated the entire team's standards.
     photoUrl: ""              # URL to headshot — leave empty for initials
 
-  - name: "James Okafor"
-    title: "Senior Product Designer"
-    company: "Startup XYZ"
-    relationship: "Colleague"
-    quote: |
-      Working with Alex was a joy. They have a rare ability to translate vague
-      product requirements into clean, elegant code. Our collaboration made the
-      product significantly better.
-    photoUrl: ""
-
-  - name: "Priya Nair"
-    title: "CTO"
-    company: "FinTech Ventures"
-    relationship: "Client"
-    quote: |
-      Alex delivered the project ahead of schedule and the code quality was
-      exceptional. They communicated proactively, flagged risks early, and were
-      genuinely invested in our success.
-    photoUrl: ""
 
 # ── Analytics (optional, always free) ──────────────────────────────────────
 # Two ways to track who visits your portfolio — both free, no credit card:
