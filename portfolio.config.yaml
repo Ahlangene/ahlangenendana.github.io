@@ -12,18 +12,18 @@
 # ║                                                                      ║
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
-siteMode: "landing"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
+siteUrl:  "https://ahlangenendana.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
+name: "Ahlangene"              # Your name — shown in the header and used as a fallback in the avatar
+title: "IT Support Engineer"
+tagline: "I resolve technology systems for everyone."
+email: "ndana.ahlangene@gmail.com"
+phone: "+27 63 885 7969"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
+location: "Cape Town, South Africa"
+avatarUrl: "https://github.com/Ahlangene/ahlangenendana.github.io/blob/main/Professional%20Headshot.png"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -50,7 +50,7 @@ openToWork: true         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+colorPreset: "slate"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
 # primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
                            # Overrides colorPreset above. To find a hex code:
                            #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
@@ -76,23 +76,27 @@ sections:
   - { id: education,      show: true  }
   - { id: certifications, show: true  }
   - { id: publications,   show: false }
-  - { id: testimonials,   show: true  }
+  - { id: testimonials,   show: false  }
   - { id: contact,        show: true  }
 
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
-  github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  github:   "https://github.com/Ahlangene"
+  linkedin: "https://www.linkedin.com/in/ahlangene-ndana-a27925315/"
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+  Computer Engineering Honours graduate with hands-on first-line IT support 
+  experience assisting ~25 users across 35 devices with Windows, hardware, 
+  Microsoft 365 and peripheral issues. Skilled in systematic troubleshooting, 
+  hardware upgrades, device configuration, data backup and clear user communication. 
+  Current City of Cape Town role adds Excel, SharePoint, documentation and 
+  stakeholder coordination experience. Google IT Support Certified, with practical 
+  Python/Java project experience as technical depth. Seeking an entry-level IT 
+  Support Engineer or Service Desk role.
 
 
 # ── Stats ──────────────────────────────────────────────────────────────
@@ -114,9 +118,9 @@ stats:
 # ── Languages ──────────────────────────────────────────────────────────
 # level options: Native | Fluent | Conversational | Basic
 languages:
-  - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
+  - { name: "isiXhosa",  level: "Native"        }
+  - { name: "English",  level: "Fluent" }
+  - { name: "Afrikaans", level: "Conversational"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
@@ -125,29 +129,42 @@ skills:
   - category: "Backend"
     items: [Node.js, Express, PostgreSQL, Redis, GraphQL]
   - category: "DevOps"
-    items: [Docker, AWS, CI/CD, Kubernetes, Terraform]
+    items: [Docker, CI/CD, Kubernetes,]
   - category: "Tools"
-    items: [Git, Figma, Jest, Storybook, Datadog]
+    items: [Git, VSCode]
 
 # ── Experience ─────────────────────────────────────────────────────────
 experience:
-  - company: "Acme Corp"
-    role: "Senior Full-Stack Engineer"
-    period: "2022 – Present"
+  - company: "City of Cape Town"
+    role: "Adminstrator Support"
+    period: "March 2026 – Present"
     description: |
-      Led migration of monolithic Rails app to microservices.
-      Reduced p99 latency by 60%. Mentored a team of 4 engineers.
+      What I did: Supported 8 infrastructure projects by coordinating 
+      information between project managers, contractors, and community 
+      stakeholders.
+      The problem: Project close-out documentation was incomplete, which 
+      risked audit findings and delayed payments.
+      What I did about it: I reconciled project quantities against payment 
+      records to surface discrepancies, then generated or updated 17 close-out 
+      reports to fill the gaps.
     highlights:
       - Microservices migration
       - 60% latency reduction
       - Team leadership
 
-  - company: "Startup XYZ"
-    role: "Software Engineer"
-    period: "2020 – 2022"
+  - company: "Independent"
+    role: "IT Support"
+    period: "January 2025 - December 2025"
     description: |
       Built real-time collaboration features for a SaaS platform serving
       50k users. Owned the entire frontend from scratch.
+      What I did: Supported 8 infrastructure projects by coordinating 
+      information between project managers, contractors, and community 
+      stakeholders.
+      What I did: Provided first-line technical support to ~25 users across 35 devices, primarily onsite.
+      The interesting part: Most issues weren't obvious—OneDrive sync failures, audio/connectivity problems, OS installs, HDD-to-SSD upgrades. I had to gather information, form a hypothesis, apply a fix, and verify with the user.
+      Outcome: Kept 25 users productive across 35 devices, and built a habit of explaining technical solutions in plain language.
+    Outcome: Improved the completeness of project records and supported audit readiness across 8 projects, while coordinating ~30 stakeholders.
     highlights:
       - Real-time collaboration
       - 50k users
