@@ -97,10 +97,10 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 stats:
-  - { label: "Devices Supported", value: 35, suffix: "" }
-  - { label: "Users Assisted", value: 25, suffix: "" }
+  - { label: "Devices Supported", value: 35, suffix: "+" }
+  - { label: "Users Assisted", value: 25, suffix: "+" }
   - { label: "Certifications", value: 2, suffix: "" }
-  - { label: "Degrees Earned", value: 2, suffix: "" } // BTech & Honors }
+  - { label: "Degrees Earned", value: 2, suffix: "" } 
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
@@ -137,12 +137,12 @@ experience:
     role: "Adminstrator Support"
     period: "March 2026 – Present"
     description: |
-      What I did: Supported 8 infrastructure projects by coordinating 
+      Supported 8 infrastructure projects by coordinating 
       information between project managers, contractors, and community 
       stakeholders.
-      The problem: Project close-out documentation was incomplete, which 
+      Project close-out documentation was incomplete, which 
       risked audit findings and delayed payments.
-      What I did about it: I reconciled project quantities against payment 
+      I reconciled project quantities against payment 
       records to surface discrepancies, then generated or updated 17 close-out 
       reports to fill the gaps.
     Outcome: Improved the completeness of project records and supported audit readiness across 8 projects, while coordinating ~30 stakeholders.
@@ -156,13 +156,11 @@ experience:
     role: "IT Support"
     period: "January 2025 - December 2025"
     description: |
-      Built real-time collaboration features for a SaaS platform serving
-      50k users. Owned the entire frontend from scratch.
-      What I did: Supported 8 infrastructure projects by coordinating 
+      Supported 8 infrastructure projects by coordinating 
       information between project managers, contractors, and community 
       stakeholders.
-      What I did: Provided first-line technical support to ~25 users across 35 devices, primarily onsite.
-      The interesting part: Most issues weren't obvious—OneDrive sync failures, audio/connectivity problems, OS installs, HDD-to-SSD upgrades. I had to gather information, form a hypothesis, apply a fix, and verify with the user.
+      Provided first-line technical support to ~25 users across 35 devices, primarily onsite.
+      Most issues weren't obvious—OneDrive sync failures, audio/connectivity problems, OS installs, HDD-to-SSD upgrades. I had to gather information, form a hypothesis, apply a fix, and verify with the user.
     Outcome: Kept 25 users productive across 35 devices, and built a habit of explaining technical solutions in plain language.
     highlights:
       - Troubleshooting
