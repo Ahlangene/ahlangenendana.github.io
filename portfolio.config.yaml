@@ -97,8 +97,8 @@ about: |
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 # stats:
-  - { label: "Software Projects", value: 2, suffix: "" }
-  - { label: "Certifications", value: 2, suffix: "" }
+    - { label: "Software Projects", value: 2, suffix: "" }
+    - { label: "Certifications", value: 2, suffix: "" }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
