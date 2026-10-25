@@ -13,7 +13,7 @@
 # ║  Change it to "portfolio" once you have filled in your details.      ║
 # ╚══════════════════════════════════════════════════════════════════════╝
 siteMode: "portfolio"   # ← CHANGE THIS to "portfolio"
-siteUrl:  "https://ahlangenendana.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+siteUrl:  ""  # ← Your GitHub Pages URL (used for RSS & canonical links)
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
@@ -89,26 +89,16 @@ social:
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  Computer Engineering Honours graduate with hands-on first-line IT support 
-  experience assisting ~25 users across 35 devices with Windows, hardware, 
-  Microsoft 365 and peripheral issues. Skilled in systematic troubleshooting, 
-  hardware upgrades, device configuration, data backup and clear user communication. 
-  Current City of Cape Town role adds Excel, SharePoint, documentation and 
-  stakeholder coordination experience. Google IT Support Certified, with practical 
-  Python/Java project experience as technical depth. Seeking an entry-level IT 
-  Support Engineer or Service Desk role.
-
-
+  Computer Engineering Honours graduate with hands-on first-line IT support experience assisting ~25 users across 35 devices with Windows, hardware, Microsoft 365 and peripheral issues. Skilled in systematic troubleshooting, hardware upgrades, device configuration, data backup and clear user communication. Current City of Cape Town role adds Excel, SharePoint, documentation and stakeholder coordination experience. Google IT Support Certified, with practical Python/Java project experience as technical depth. Seeking an entry-level IT Support Engineer or Service Desk role.
+  
 # ── Stats ──────────────────────────────────────────────────────────────
 # Customise each label and value freely — change "Projects Shipped" to
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
 # stats:
-#   - { label: "Years Experience", value: 5,    suffix: "+" }
-#   - { label: "Projects Shipped", value: 20,   suffix: "+" }
-#   - { label: "Happy Clients",    value: 50,   suffix: "+" }
-#   - { label: "Cups of Coffee",   value: 1200, suffix: ""  }
+  - { label: "Software Projects", value: 2, suffix: "" }
+  - { label: "Certifications", value: 2, suffix: "" }
 
 # Examples of other combinations you can use:
 #   - { label: "Active Users",    value: 10000, suffix: "+" }
