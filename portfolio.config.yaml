@@ -96,7 +96,7 @@ about: |
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
 # Remove all entries or set show: false above to hide this section.
-# stats:
+stats:
   - { label: "Devices Supported", value: 35, suffix: "" }
   - { label: "Users Assisted", value: 25, suffix: "" }
   - { label: "Certifications", value: 2, suffix: "" }
