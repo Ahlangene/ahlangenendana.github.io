@@ -18,8 +18,8 @@ showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge i
 
 # ── Identity ───────────────────────────────────────────── (required) ──
 name: "Ahlangene P. Ndana"              # Your name — shown in the header and used as a fallback in the avatar
-title: "IT Support Engineer & and Aspiring Software Developer"
-tagline: "I resolve technology systems for everyone."
+title: "Systems Support & Software Engineer"
+tagline: "Resolving complex technical issues and keeping systems running smoothly."
 email: "ndana.ahlangene@gmail.com"
 phone: "+27 63 885 7969"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "Cape Town, South Africa"
@@ -46,7 +46,7 @@ avatarUrl: "https://raw.githubusercontent.com/Ahlangene/ahlangenendana.github.io
 # resumeFileName: "Git_Vitae_Resume.pdf"
 
 # ── Status ─────────────────────────────────────────────────────────────
-openToWork: true         # Shows "Open to Opportunities" banner when true
+openToWork: false        # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
 defaultTheme: "system"   # Options: light | dark | system
@@ -147,23 +147,23 @@ experience:
       reports to fill the gaps.
     Outcome: Improved the completeness of project records and supported audit readiness across 8 projects, while coordinating ~30 stakeholders.
     highlights:
-      - Ms Word
-      - Ms Excel
       - Records Management
       - Audit Preparation
+      - Report writing
+      - Analysis
+      - Ms Word
+      - Ms Excel
+      
 
   - company: "Independent"
     role: "IT Support"
     period: "January 2025 - December 2025"
     description: |
-      Supported 8 infrastructure projects by coordinating 
-      information between project managers, contractors, and community 
-      stakeholders.
       Provided first-line technical support to ~25 users across 35 devices, primarily onsite.
       Most issues weren't obvious—OneDrive sync failures, audio/connectivity problems, OS installs, HDD-to-SSD upgrades. I had to gather information, form a hypothesis, apply a fix, and verify with the user.
     Outcome: Kept 25 users productive across 35 devices, and built a habit of explaining technical solutions in plain language.
     highlights:
-      - Troubleshooting
+      - Hardware and Software trroubleshoot
       - 25 users
       - Windows and Linux
       - MS Office
@@ -187,6 +187,13 @@ projects:
     repoUrl: "https://github.com/Ahlangene/Data-Analysis-Web-Application"
     featured: true
 
+  - name: "Library Management System"
+    description: "A library management application built with Java and DerbyDB. Handles Role based access to accommodate different types of users."
+    tags: [Java, SQL, DerbyDB]
+    liveUrl: ""
+    repoUrl: "https://github.com/yourusername/opendesk"
+    featured: true
+
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "Cape Peninsula University of Technology"
@@ -205,14 +212,14 @@ education:
 certifications:
   - title: "IBM Full Stack Software Developer Professional Certificate"
     issuer: "IBM"
-    date: "2026"
+    date: "August 2026"
     credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/D1RY619LPX9C"
     badgeUrl: ""
     tags: [Frontend, Backend, Javascript, Python, Git Version Control, MicroServices, Cloud Deployment, CI/CD]
 
   - title: "Google IT Support Professional Certificate"
     issuer: "Google"
-    date: "2025"
+    date: "Feb 2025"
     credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/JFIQODI1UTW0"
     badgeUrl: ""
     tags: [Windows, Linux, Hardware, Software, Security, Troubleshooting, Networking]
@@ -280,6 +287,6 @@ testimonials:
 # Then write your post in plain Markdown below the closing ---.
 # See the sample posts in blog/ to get started.
 blog:
-  enabled: true
+  enabled: false
   title: "Blog"
   description: "Thoughts, stories and ideas — everything in one place."
