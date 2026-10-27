@@ -126,7 +126,7 @@ export function PortfolioPage({
         topOffset={topOffset}
       />
       <Hero />
-      {*/ <GitHubStats /> */}
+      {/* <GitHubStats /> */}
       {config.sections
         .filter((s) => s.show)
         .map(({ id }) => {
